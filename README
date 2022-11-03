@@ -1,0 +1,45 @@
+README for HW1 Shakespeare
+Mohan Duvvuri, Fall 2022
+Proffesor Sesh Commander
+
+Basic description
+The Bard folder have linked list codes. Word analysis on shakespeare text. Find the kth most frequent word of a certain length in sheakseapre-cleaned5.txt file.
+
+Example:
+Input:
+6 3
+
+Resuluts in third most frequent word of length 6 used by shakespeare
+
+Output:
+Father
+
+
+
+
+
+Files
+This LinkedList folder contains a collection of codes for linked lists.
+
+Code files: Makefile, bard.cpp, bard.h, linkedlist.cpp linkedlist.h
+Input/output files: simple-input.txt, simple-output.txt
+Extra files: README, hw_shakespeare.pdf
+
+Usage
+USAGE (in main folder):
+
+Run "make", to get executable "bard".
+Run “./bard <INPUT FILE> <OUTPUT FILE>”
+USAGE (in Functional/ folder): Identical to above
+
+Input/output
+The following explains the input/output format.
+
+I/O:
+
+The input file should have a series of operations in each line. Each line is of the form:
+(length) (kth frequency)
+<INT> <INT>
+
+
+All the printing is done in the <OUTPUT FILE> provided as a command line argument.
